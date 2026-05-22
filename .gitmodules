@@ -1,0 +1,12 @@
+[submodule "FaceFit-Barber-FrontEnd"]
+	path = FaceFit-Barber-FrontEnd
+	url = https://github.com/raphael707/FaceFit-Barber-FrontEnd
+[submodule "FaceFit-Barber-BackEnd"]
+	path = FaceFit-Barber-BackEnd
+	url = https://github.com/raphael707/FaceFit-Barber-BackEnd
+[submodule "FaceFit-Barber-AI-Model"]
+	path = FaceFit-Barber-AI-Model
+	url = https://github.com/raphael707/FaceFit-Barber-Model-AI
+[submodule "FaceFit-Barber-Model-AI"]
+	path = FaceFit-Barber-Model-AI
+	url = https://github.com/raphael707/FaceFit-Barber-Model-AI
