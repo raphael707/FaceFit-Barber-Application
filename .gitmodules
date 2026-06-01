@@ -9,4 +9,4 @@
 	url = https://github.com/raphael707/FaceFit-Barber-Model-AI
 [submodule "FaceFit-Barber-Data-Science"]
 	path = FaceFit-Barber-Data-Science
-	url = https://github.com/raphael707/FaceFit-Barber-Data-Science
+	url = https://github.com/raphael707/FaceFit-Barber-Data-Science.git
