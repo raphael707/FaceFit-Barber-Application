@@ -1,61 +1,73 @@
-# FaceFit Barber Data Science
+# FaceFit Barber Application
 
-Repo ini berisi analisis data, eksplorasi, dan model pendukung untuk aplikasi FaceFit Barber.
+"FaceFit Barber" is an application designed to help users find the perfect haircut style that fits their face shape. By utilizing camera integration and AI models, this app offers personalized hairstyle recommendations and enhances the barbershop experience for both customers and barbers.
 
-## Struktur Repository
+![logoApp](https://res.cloudinary.com/dkcpexm6t/image/upload/v1779770675/LogoApp_kloy1o.png)
 
-- `data/`
-  - `dataset_before_balancing/` - dataset awal sebelum penyeimbangan kelas.
-  - `dataset_after_balancing/` - dataset yang sudah diseimbangkan untuk training dan evaluasi.
-- `notebooks/`
-  - `Business_Understanding.ipynb` - pemahaman bisnis dan tujuan proyek.
-  - `FaceFit_DS_M2_Fixed.ipynb` - notebook analisis lanjutan dan perbaikan model.
-  - `FaceFit_DS_W3_EDA.ipynb` - eksplorasi data awal (EDA).
-  - `FaceFit_W1.ipynb` - notebook awal untuk pendahuluan data science.
-- `src/`
-  - `dashboard.py` - skrip untuk dashboard atau visualisasi hasil.
-- `requirements.txt` - daftar paket Python yang dibutuhkan.
-- `LICENSE` - lisensi proyek.
+## Main Features
 
-## Tujuan
+- 📷 **Face Capture**: Utilizes webcam to capture and analyze the user's face shape.
+- 🧠 **AI Face Shape Analysis**: Processes the captured image using ML models to accurately determine the face shape.
+- ✂️ **Hairstyle Recommendations**: Suggests the best haircuts based on the detected face shape.
+- 🧭 **Interactive UI**: Smooth routing and user-friendly interface.
+- 📱 **Responsive Design**: Optimized for various devices, including mobile and desktop screens.
 
-Tujuan repo ini adalah mendukung aplikasi utama FaceFit Barber dengan:
+## Technologies Uses
 
-- eksplorasi bentuk wajah dan gaya rambut,
-- persiapan dataset untuk model AI,
-- eksperimen dan dokumentasi model data science,
-- referensi untuk pipeline analisis data dan visualisasi.
+**Frontend:**
+- React + Vite
+- Tailwind CSS
+- Vercel
 
-## Cara Menjalankan
+**Backend:**
+- Javascript
+- Express.js
+- FastAPI
+- RESTful APIs
+- HuggingFace
 
-1. Siapkan environment Python, misalnya dengan `venv`:
+**Models:**
+- Python
+- Flask
+- TensorFlow
+
+## How to Replicate
+
+1. Clone the repository:
    ```bash
-   python -m venv venv
-   .\venv\Scripts\activate
+   git clone https://github.com/raphael707/FaceFit-Barber-Application.git
+   cd FaceFit-Barber-Application
    ```
-2. Install dependensi:
+2. Install backend dependencies:
    ```bash
-   pip install -r requirements.txt
+   cd FaceFit-Barber-BackEnd
+   npm install
    ```
-3. Jalankan notebook menggunakan Jupyter:
+3. Install frontend dependencies:
    ```bash
-   pip install notebook
-   jupyter notebook
+   cd ..\FaceFit-Barber-FrontEnd
+   npm install
    ```
-4. Atau jalankan dashboard:
+4. Start the backend server:
    ```bash
-   python src\dashboard.py
+   cd ..\FaceFit-Barber-BackEnd
+   npm start
    ```
+5. Start the frontend app:
+   ```bash
+   cd ..\FaceFit-Barber-FrontEnd
+   npm run dev
+   ```
+6. Open the frontend URL shown in the terminal (usually `http://localhost:5173`).
 
-## Catatan
+## Contributing
 
-- Pastikan data di `data/` sudah tersedia sebelum menjalankan analisis.
-- Notebook menyimpan alur kerja analisis dan hasil eksperimen model.
+Feel free to fork this repository and submit a pull request.
 
-## Kontribusi
+## License
 
-Jika kamu ingin menambah model, notebook, atau pipeline data baru, buat branch baru dan ajukan pull request.
+MIT License - Use freely with attribution.
 
-## Lisensi
-
-Lisensi sama dengan repo utama.
+## Credits
+ 
+Developed as part of a **Capstone Project** to innovate the barbershop and grooming experience through technology.
