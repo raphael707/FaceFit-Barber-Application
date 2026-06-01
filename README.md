@@ -17,19 +17,47 @@
 **Frontend:**
 - React + Vite
 - Tailwind CSS
+- Vercel
 
 **Backend:**
 - Express.js
 - Javascript
 - FastAPI
 - RESTful APIs
-- Flask
 
 **Models:**
 - Python
-- Flask (Model API)
+- Flask
 - TensorFlow
-- Machine Learning & Computer Vision Libraries
+
+## How to Replicate
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/raphael707/FaceFit-Barber-Application.git
+   cd FaceFit-Barber-Application
+   ```
+2. Install backend dependencies:
+   ```bash
+   cd FaceFit-Barber-BackEnd
+   npm install
+   ```
+3. Install frontend dependencies:
+   ```bash
+   cd ..\FaceFit-Barber-FrontEnd
+   npm install
+   ```
+4. Start the backend server:
+   ```bash
+   cd ..\FaceFit-Barber-BackEnd
+   npm start
+   ```
+5. Start the frontend app:
+   ```bash
+   cd ..\FaceFit-Barber-FrontEnd
+   npm run dev
+   ```
+6. Open the frontend URL shown in the terminal (usually `http://localhost:5173`).
 
 ## Contributing
 
