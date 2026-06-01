@@ -1,34 +1,35 @@
-# FaceFit Barber - Web App to help people find their perfect haircut style based on their face shape
+# FaceFit Barber Application
 
-"FaceFit Barber" is a web application designed to help users find the perfect haircut style that fits their face shape. By utilizing camera integration, this app offers personalized hairstyle recommendations and enhances the barbershop experience for both customers and barbers.
+"FaceFit Barber" is an application designed to help users find the perfect haircut style that fits their face shape. By utilizing camera integration and AI models, this app offers personalized hairstyle recommendations and enhances the barbershop experience for both customers and barbers.
 
-![logoApp](./public/LogoApp.png)
+![logoApp](https://res.cloudinary.com/dkcpexm6t/image/upload/v1779770675/LogoApp_kloy1o.png)
 
 ## Main Features
 
 - 📷 **Face Capture**: Utilizes webcam to capture and analyze the user's face shape.
+- 🧠 **AI Face Shape Analysis**: Processes the captured image using ML models to accurately determine the face shape.
 - ✂️ **Hairstyle Recommendations**: Suggests the best haircuts based on the detected face shape.
 - 🧭 **Interactive UI**: Smooth routing and user-friendly interface.
 - 📱 **Responsive Design**: Optimized for various devices, including mobile and desktop screens.
 
-## Technologies Used
+## Technologies Uses
+
+**Frontend:**
 - React + Vite
-- Tailwind CSS (Responsive Design)
-- React Webcam (Camera Integration)
-- React Router DOM (Navigation)
+- Tailwind CSS
 
-## Prerequisites
+**Backend:**
+- Express.js
+- Javascript
+- FastAPI
+- RESTful APIs
+- Flask
 
-- Node.js v18.x or higher
-- npm (Node Package Manager)
-
-## Setup and Installation
-```bash
-git clone https://github.com/raphael707/FaceFit-Barber-application.git
-cd facefit-barber-app-frontEnd
-npm install
-npm run dev
-```
+**Models:**
+- Python
+- Flask (Model API)
+- TensorFlow
+- Machine Learning & Computer Vision Libraries
 
 ## Contributing
 
